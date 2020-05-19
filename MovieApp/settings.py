@@ -149,6 +149,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 MEDIA_URL = '/media/'
 
-# CORS_ORIGIN_WHITELIST = ['http://localhost:8080','http://localhost:3000']
+CORS_ORIGIN_WHITELIST = ['http://localhost:8080','http://localhost:3000', 'https://compassionate-williams-080467.netlify.app']
 
 django_heroku.settings(locals())

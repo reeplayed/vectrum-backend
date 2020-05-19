@@ -16,5 +16,5 @@ def parse_id_token(token: str) -> dict:
 
 def set_random_image():
     images = ['default.jpg', 'joda.jpeg', 'wiedzmin.jpg']
-    return 'http://127.0.0.1:8000/media/' + random.choice(images)
+    return 'http://vectrum.herokuapp.com/media/' + random.choice(images)
 
