@@ -26,8 +26,6 @@ SECRET_KEY = 'hngvnri)n%ayfd^1_-*^7%01ej(l9p=wt&et3an&d*&kagj99v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
 AUTH_USER_MODEL = 'user.CustomUser'
 
 ALLOWED_HOSTS = ['vectrum.herokuapp.com']
